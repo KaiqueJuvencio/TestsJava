@@ -86,7 +86,7 @@ public class LocacaoServiceTest {
 	//So vai passar se for retornado uma exception. No caso tem a logica para retornar caso tenha estoque vazio 
 	@Test(expected = FilmeSemEstoqueException.class)
 	public void deveLancarExcecaoAoAlugarFilmeSemEstoque() throws Exception {
-		//Cenario	
+		//Cenarioo	
 		Usuario usuario = new Usuario("Kaique");		
 		List<Filme> filmes = new ArrayList<Filme>();
 		Filme armagedonFilme = new Filme("Armagedon", 0, 6.0);
